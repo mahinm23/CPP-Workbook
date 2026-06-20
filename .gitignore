@@ -1,1 +1,14 @@
-.DS_Store
+# Ignore everything by default
+*
+
+# Allow source files and important docs
+!*.cpp
+!*.h
+!*.hpp
+!*.md
+
+# Allow directories (so git can see into them)
+!*/
+
+# Allow this file itself
+!.gitignore

@@ -46,7 +46,12 @@ int main() {
     std::string name;
     std::string res;
     while (running){
+        if (q.numberQueueing > 0){
         std::cout << firstInQueue(q) << " is first" << std::endl;
+        } else {
+            std::cout << "The queue is empty" << std::endl;
+        }
+        
         std::cout << "Enter 1 to join the queue" << std::endl;
         std::cout << "Enter 2 to leave the queue" << std::endl;
         std::cout << "Enter anything to quit" << std::endl;

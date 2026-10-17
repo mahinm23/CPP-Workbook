@@ -8,12 +8,12 @@ No - both options below are terminal apps, not IDEs. No GUI project tree, no aut
 
 ## Option 1: a-Shell (recommended)
 
-Native iOS terminal app - no x86 emulation, so it's fast. Comes with `clang`, `git`, `vim`, `emacs` pre-installed, no package manager step needed.
+Native iOS terminal app - no x86 emulation, so it's fast. Comes with `clang`, `vim`, `pico` pre-installed, no package manager step needed. **Correction (17-10-2026):** a-Shell does NOT include real `git` - it ships `lg2`, a lightweight git-equivalent built on libgit2, which mirrors git's subcommands (clone/add/commit/push) but isn't a 1:1 match. Verified live against the actual app, not assumed.
 
-1. Install **a-Shell** from the App Store (free).
+1. Install **a-Shell** from the App Store (free) - not "a-Shell mini", which strips out some bundled tools.
 2. Clone this repo (needs internet, one-time):
    ```
-   git clone https://github.com/mahinm23/CPP-Workbook.git
+   lg2 clone https://github.com/mahinm23/CPP-Workbook.git
    cd CPP-Workbook
    ```
 3. Edit a file: `vim "Intermediate/OOP/03_rule_of_three_five.cpp"` (quote paths with spaces).
@@ -21,7 +21,13 @@ Native iOS terminal app - no x86 emulation, so it's fast. Comes with `clang`, `g
    ```
    clang++ "Intermediate/OOP/03_rule_of_three_five.cpp" -o out && ./out
    ```
-5. Sync back to desktop: `git add -A && git commit -m "..." && git push` (needs internet again, same as any git push).
+5. Sync back to desktop (needs internet again):
+   ```
+   lg2 add -A
+   lg2 commit -m "..."
+   lg2 push
+   ```
+   GitHub no longer accepts a plain password over HTTPS for push - if prompted for one, use a Personal Access Token instead (github.com > Settings > Developer settings > Personal access tokens). Not yet independently confirmed against the real app - `lg2 clone` was given as the fix for the `git: command not found` error but not yet reported back as working; add/commit/push syntax is a best guess based on `lg2` mirroring git's subcommands. If any flags differ, `lg2 <subcommand> --help` shows the real ones - update this doc once confirmed.
 
 ## Option 2: iSH (fallback)
 
@@ -33,6 +39,24 @@ Full Alpine Linux, x86-emulated (slower than a-Shell). Use only if a-Shell's nar
    apk add clang git vim
    ```
 3. Same clone/edit/compile/push workflow as a-Shell above.
+
+## Minimal vim cheat sheet
+
+Vim has a huge command set, but this workflow only needs this much of it:
+
+| Action | Command |
+|---|---|
+| Open a file | `vim filename.cpp` |
+| Start typing | `i` (enters insert mode) |
+| Stop typing / back to commands | `Esc` |
+| Save and quit | `:wq` then Enter |
+| Quit without saving | `:q!` then Enter |
+| Move cursor | arrow keys, or `h j k l` = left/down/up/right |
+| Undo | `u` |
+| Delete a line | `dd` |
+| Turn on colour highlighting | `:syntax on` |
+
+The one thing that trips people up: you can't type immediately when vim opens - press `i` first, and press `Esc` before any `:` command (including saving). Everything else is optional for this.
 
 ## Notes
 

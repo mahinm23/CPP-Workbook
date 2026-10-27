@@ -1,4 +1,4 @@
-// Reference solution for ../08_final_challenge.cpp
+// Reference solution for ../Ex8/08_final_challenge.cpp
 
 #include <iostream>
 #include <string>

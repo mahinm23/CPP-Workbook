@@ -1,4 +1,4 @@
-// Reference solution for ../03_rule_of_three_five.cpp
+// Reference solution for ../Ex7/07_rule_of_three_five.cpp
 
 #include <iostream>
 

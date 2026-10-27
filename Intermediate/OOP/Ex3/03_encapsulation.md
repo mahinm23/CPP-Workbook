@@ -1,11 +1,11 @@
 ---
-title: OOP 04 - Encapsulation
+title: OOP 03 - Encapsulation
 date: 27-10-2026
 tags: [cpp, oop, intermediate]
 status: active
 ---
 
-# OOP 04: Encapsulation
+# OOP 03: Encapsulation
 
 ## Concept
 
@@ -35,10 +35,10 @@ Write a class `Order` with PRIVATE members: `std::string symbol`, `double price`
 
 ## Starter
 
-Create your own `04_encapsulation.cpp` in this folder. Headers you'll need:
+Create your own `03_encapsulation.cpp` in this folder. Headers you'll need:
 
 ```cpp
 #include <iostream>
 ```
 
-Reference solution (check only after attempting): [answers/04_encapsulation.cpp](../answers/04_encapsulation.cpp)
+Reference solution (check only after attempting): [answers/03_encapsulation.cpp](../answers/03_encapsulation.cpp)

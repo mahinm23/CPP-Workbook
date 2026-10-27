@@ -1,4 +1,4 @@
-// Reference solution for ../06_polymorphism.cpp
+// Reference solution for ../Ex5/05_polymorphism.cpp
 
 #include <iostream>
 #include <string>

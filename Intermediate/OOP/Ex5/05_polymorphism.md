@@ -1,11 +1,11 @@
 ---
-title: OOP 06 - Polymorphism
+title: OOP 05 - Polymorphism
 date: 27-10-2026
 tags: [cpp, oop, intermediate]
 status: active
 ---
 
-# OOP 06: Polymorphism
+# OOP 05: Polymorphism
 
 ## Concept
 
@@ -42,11 +42,11 @@ Using the `Order` / `LimitOrder` / `MarketOrder` classes from exercise 4:
 
 ## Starter
 
-Create your own `06_polymorphism.cpp` in this folder. Headers you'll need:
+Create your own `05_polymorphism.cpp` in this folder. Headers you'll need:
 
 ```cpp
 #include <iostream>
 #include <vector>
 ```
 
-Reference solution (check only after attempting): [answers/06_polymorphism.cpp](../answers/06_polymorphism.cpp)
+Reference solution (check only after attempting): [answers/05_polymorphism.cpp](../answers/05_polymorphism.cpp)

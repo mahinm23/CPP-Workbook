@@ -1,11 +1,11 @@
 ---
-title: OOP 07 - Operator Overloading
+title: OOP 06 - Operator Overloading
 date: 27-10-2026
 tags: [cpp, oop, intermediate]
 status: active
 ---
 
-# OOP 07: Operator Overloading
+# OOP 06: Operator Overloading
 
 ## Concept
 
@@ -43,7 +43,7 @@ Write a class `PriceLevel` with members `double price` and `int quantity`, a con
 
 ## Starter
 
-Create your own `07_operator_overloading.cpp` in this folder. Headers you'll need:
+Create your own `06_operator_overloading.cpp` in this folder. Headers you'll need:
 
 ```cpp
 #include <iostream>
@@ -51,4 +51,4 @@ Create your own `07_operator_overloading.cpp` in this folder. Headers you'll nee
 #include <algorithm>
 ```
 
-Reference solution (check only after attempting): [answers/07_operator_overloading.cpp](../answers/07_operator_overloading.cpp)
+Reference solution (check only after attempting): [answers/06_operator_overloading.cpp](../answers/06_operator_overloading.cpp)

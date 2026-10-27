@@ -1,4 +1,4 @@
-// Reference solution for ../07_operator_overloading.cpp
+// Reference solution for ../Ex6/06_operator_overloading.cpp
 
 #include <iostream>
 #include <vector>

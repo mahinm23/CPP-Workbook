@@ -1,4 +1,4 @@
-// Reference solution for ../04_encapsulation.cpp
+// Reference solution for ../Ex3/03_encapsulation.cpp
 
 #include <iostream>
 #include <string>

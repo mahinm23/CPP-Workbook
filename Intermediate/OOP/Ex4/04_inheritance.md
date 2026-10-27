@@ -1,11 +1,11 @@
 ---
-title: OOP 05 - Inheritance
+title: OOP 04 - Inheritance
 date: 27-10-2026
 tags: [cpp, oop, intermediate]
 status: active
 ---
 
-# OOP 05: Inheritance
+# OOP 04: Inheritance
 
 ## Concept
 
@@ -39,10 +39,10 @@ public:
 
 ## Starter
 
-Create your own `05_inheritance.cpp` in this folder. Headers you'll need:
+Create your own `04_inheritance.cpp` in this folder. Headers you'll need:
 
 ```cpp
 #include <iostream>
 ```
 
-Reference solution (check only after attempting): [answers/05_inheritance.cpp](../answers/05_inheritance.cpp)
+Reference solution (check only after attempting): [answers/04_inheritance.cpp](../answers/04_inheritance.cpp)

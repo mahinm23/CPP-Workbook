@@ -1,4 +1,4 @@
-// Reference solution for ../05_inheritance.cpp
+// Reference solution for ../Ex4/04_inheritance.cpp
 
 #include <iostream>
 #include <string>

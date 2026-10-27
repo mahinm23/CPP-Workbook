@@ -1,11 +1,11 @@
 ---
-title: OOP 03 - Rule of Three/Five
+title: OOP 07 - Rule of Three/Five
 date: 27-10-2026
 tags: [cpp, oop, intermediate]
 status: active
 ---
 
-# OOP 03: Rule of Three/Five
+# OOP 07: Rule of Three/Five
 
 ## Concept
 
@@ -56,10 +56,10 @@ Write a class `IntArray` that wraps a raw dynamically-allocated array:
 
 ## Starter
 
-Create your own `03_rule_of_three_five.cpp` in this folder. Headers you'll need:
+Create your own `07_rule_of_three_five.cpp` in this folder. Headers you'll need:
 
 ```cpp
 #include <iostream>
 ```
 
-Reference solution (check only after attempting): [answers/03_rule_of_three_five.cpp](../answers/03_rule_of_three_five.cpp)
+Reference solution (check only after attempting): [answers/07_rule_of_three_five.cpp](../answers/07_rule_of_three_five.cpp)

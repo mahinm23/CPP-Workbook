@@ -43,4 +43,4 @@ Create your own `03_list_vs_queue.cpp` in this folder. Headers you'll need:
 #include <queue>
 ```
 
-Reference solution (check only after attempting): [answers/03_list_vs_queue.cpp](answers/03_list_vs_queue.cpp)
+Reference solution (check only after attempting): [answers/03_list_vs_queue.cpp](../answers/03_list_vs_queue.cpp)

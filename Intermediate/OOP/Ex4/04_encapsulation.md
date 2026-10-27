@@ -41,4 +41,4 @@ Create your own `04_encapsulation.cpp` in this folder. Headers you'll need:
 #include <iostream>
 ```
 
-Reference solution (check only after attempting): [answers/04_encapsulation.cpp](answers/04_encapsulation.cpp)
+Reference solution (check only after attempting): [answers/04_encapsulation.cpp](../answers/04_encapsulation.cpp)

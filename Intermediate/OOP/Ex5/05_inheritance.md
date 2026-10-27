@@ -45,4 +45,4 @@ Create your own `05_inheritance.cpp` in this folder. Headers you'll need:
 #include <iostream>
 ```
 
-Reference solution (check only after attempting): [answers/05_inheritance.cpp](answers/05_inheritance.cpp)
+Reference solution (check only after attempting): [answers/05_inheritance.cpp](../answers/05_inheritance.cpp)

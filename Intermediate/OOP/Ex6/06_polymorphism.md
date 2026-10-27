@@ -49,4 +49,4 @@ Create your own `06_polymorphism.cpp` in this folder. Headers you'll need:
 #include <vector>
 ```
 
-Reference solution (check only after attempting): [answers/06_polymorphism.cpp](answers/06_polymorphism.cpp)
+Reference solution (check only after attempting): [answers/06_polymorphism.cpp](../answers/06_polymorphism.cpp)

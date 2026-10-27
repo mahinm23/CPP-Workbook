@@ -39,4 +39,4 @@ Create your own `08_final_challenge.cpp` in this folder. Headers you'll need:
 #include <algorithm>
 ```
 
-Reference solution (check only after attempting): [answers/08_final_challenge.cpp](answers/08_final_challenge.cpp)
+Reference solution (check only after attempting): [answers/08_final_challenge.cpp](../answers/08_final_challenge.cpp)

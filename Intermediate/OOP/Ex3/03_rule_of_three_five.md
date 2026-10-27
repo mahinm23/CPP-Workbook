@@ -62,4 +62,4 @@ Create your own `03_rule_of_three_five.cpp` in this folder. Headers you'll need:
 #include <iostream>
 ```
 
-Reference solution (check only after attempting): [answers/03_rule_of_three_five.cpp](answers/03_rule_of_three_five.cpp)
+Reference solution (check only after attempting): [answers/03_rule_of_three_five.cpp](../answers/03_rule_of_three_five.cpp)

@@ -55,4 +55,4 @@ Create your own `06_final_challenge.cpp` in this folder. Headers you'll need:
 #include <string>
 ```
 
-Reference solution (check only after attempting): [answers/06_final_challenge.cpp](answers/06_final_challenge.cpp)
+Reference solution (check only after attempting): [answers/06_final_challenge.cpp](../answers/06_final_challenge.cpp)

@@ -25,4 +25,4 @@ Doing these exercises on iPhone (a-Shell or iSH, no desktop needed): see [SETUP-
 
 ## Exercise convention
 
-Same as the ECS401 units (`Workbook Guides/*.md`): instructions live in Markdown, code you write lives in `.cpp`. Each Intermediate exercise has a guide (`Intermediate/OOP/*.md`, `Intermediate/STL/*.md`) with the concept, the exercise spec, and the headers needed - create your own `.cpp` with the same name next to it and attempt it fresh from memory. A reference solution for each lives in the matching `answers/` subfolder - check it only after attempting, not before.
+Same as the ECS401 units (`Workbook Guides/*.md`): instructions live in Markdown, code you write lives in `.cpp`. Each Intermediate exercise has its own folder (`Intermediate/OOP/ExN/`, `Intermediate/STL/ExN/`) holding a guide `.md` with the concept, the exercise spec, and the headers needed - create your own `.cpp` with the same name next to it and attempt it fresh from memory. A reference solution for each lives in the topic's `answers/` folder (`Intermediate/OOP/answers/`, `Intermediate/STL/answers/`) - check it only after attempting, not before.

@@ -65,4 +65,4 @@ Create your own `01_templates.cpp` in this folder. Headers you'll need:
 #include <iostream>
 ```
 
-Reference solution (check only after attempting): [answers/01_templates.cpp](answers/01_templates.cpp)
+Reference solution (check only after attempting): [answers/01_templates.cpp](../answers/01_templates.cpp)

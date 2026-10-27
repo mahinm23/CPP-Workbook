@@ -2,36 +2,6 @@
 
 // classes need to be written as public so that their variables can be seen in other places
 
-class Order {
-public:
-    std::string symbol;
-    double price;
-    int quantity;
-
-    void print() {
-        std::cout << symbol << " " << quantity << " @ " << price << "\n";
-    }
-};
-
-/*
-int main() {
-    Order o;
-    o.symbol = "AAPL";
-    o.price = 150.5;
-    o.quantity = 100;
-    o.print();
-}
-*/
-
-
-/*
-Exercise 1:
-
-Write a class called Trade with members std::string side (e.g. "BUY" or "SELL"), double price, and int quantity. 
-Give it a member function double notional() that returns price * quantity. 
-Write a small main() that creates a Trade, sets its fields, and prints the result of notional().
-*/
-
 class Trade {
     public: 
         std::string Side;

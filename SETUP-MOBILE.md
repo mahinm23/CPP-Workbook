@@ -16,7 +16,7 @@ Native iOS terminal app - no x86 emulation, so it's fast. Comes with `clang`, `v
    lg2 clone https://github.com/mahinm23/CPP-Workbook.git
    cd CPP-Workbook
    ```
-3. Edit a file: `vim "Intermediate/OOP/03_rule_of_three_five.cpp"` (quote paths with spaces).
+3. Read the exercise guide (`less "Intermediate/OOP/03_rule_of_three_five.md"`), then create/edit your own file: `vim "Intermediate/OOP/03_rule_of_three_five.cpp"` (quote paths with spaces).
 4. Compile and run, fully offline from here on:
    ```
    clang++ "Intermediate/OOP/03_rule_of_three_five.cpp" -o out && ./out
